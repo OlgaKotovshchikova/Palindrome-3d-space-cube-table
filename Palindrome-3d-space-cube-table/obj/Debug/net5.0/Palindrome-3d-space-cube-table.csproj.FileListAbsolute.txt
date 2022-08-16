@@ -1,0 +1,16 @@
+C:\Users\Никита\Desktop\Palindrome-3d-space-cube-table\Palindrome-3d-space-cube-table\bin\Debug\net5.0\Palindrome-3d-space-cube-table.exe
+C:\Users\Никита\Desktop\Palindrome-3d-space-cube-table\Palindrome-3d-space-cube-table\bin\Debug\net5.0\Palindrome-3d-space-cube-table.deps.json
+C:\Users\Никита\Desktop\Palindrome-3d-space-cube-table\Palindrome-3d-space-cube-table\bin\Debug\net5.0\Palindrome-3d-space-cube-table.runtimeconfig.json
+C:\Users\Никита\Desktop\Palindrome-3d-space-cube-table\Palindrome-3d-space-cube-table\bin\Debug\net5.0\Palindrome-3d-space-cube-table.runtimeconfig.dev.json
+C:\Users\Никита\Desktop\Palindrome-3d-space-cube-table\Palindrome-3d-space-cube-table\bin\Debug\net5.0\Palindrome-3d-space-cube-table.dll
+C:\Users\Никита\Desktop\Palindrome-3d-space-cube-table\Palindrome-3d-space-cube-table\bin\Debug\net5.0\ref\Palindrome-3d-space-cube-table.dll
+C:\Users\Никита\Desktop\Palindrome-3d-space-cube-table\Palindrome-3d-space-cube-table\bin\Debug\net5.0\Palindrome-3d-space-cube-table.pdb
+C:\Users\Никита\Desktop\Palindrome-3d-space-cube-table\Palindrome-3d-space-cube-table\obj\Debug\net5.0\Palindrome-3d-space-cube-table.csproj.AssemblyReference.cache
+C:\Users\Никита\Desktop\Palindrome-3d-space-cube-table\Palindrome-3d-space-cube-table\obj\Debug\net5.0\Palindrome-3d-space-cube-table.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Никита\Desktop\Palindrome-3d-space-cube-table\Palindrome-3d-space-cube-table\obj\Debug\net5.0\Palindrome-3d-space-cube-table.AssemblyInfoInputs.cache
+C:\Users\Никита\Desktop\Palindrome-3d-space-cube-table\Palindrome-3d-space-cube-table\obj\Debug\net5.0\Palindrome-3d-space-cube-table.AssemblyInfo.cs
+C:\Users\Никита\Desktop\Palindrome-3d-space-cube-table\Palindrome-3d-space-cube-table\obj\Debug\net5.0\Palindrome-3d-space-cube-table.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\Palindrome-3d-space-cube-table\Palindrome-3d-space-cube-table\obj\Debug\net5.0\Palindrome-3d-space-cube-table.dll
+C:\Users\Никита\Desktop\Palindrome-3d-space-cube-table\Palindrome-3d-space-cube-table\obj\Debug\net5.0\ref\Palindrome-3d-space-cube-table.dll
+C:\Users\Никита\Desktop\Palindrome-3d-space-cube-table\Palindrome-3d-space-cube-table\obj\Debug\net5.0\Palindrome-3d-space-cube-table.pdb
+C:\Users\Никита\Desktop\Palindrome-3d-space-cube-table\Palindrome-3d-space-cube-table\obj\Debug\net5.0\Palindrome-3d-space-cube-table.genruntimeconfig.cache
