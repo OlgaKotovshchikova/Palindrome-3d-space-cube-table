@@ -6,7 +6,7 @@ namespace Palindrome_3d_space_cube_table
     {
         static void Main()
         {
-            Console.WriteLine("Введите номер задачи (19, 20, 23): ");
+            Console.WriteLine("Введите номер задачи - 19, 20, 23 или 0(доп.задача): ");
             int taskNumber = Convert.ToInt32(Console.ReadLine());
             switch (taskNumber)
             {
@@ -19,8 +19,11 @@ namespace Palindrome_3d_space_cube_table
                 case 23:
                     TaskTwentyThree();
                     break;
+                case 0:
+                    TaskZero();
+                    break;
                 default:
-                    Console.WriteLine("Такой задачи не существует. Введите верную (19, 20 или 23)");
+                    Console.WriteLine("Такой задачи не существует. Введите верную (19, 20, 23 или 0)");
                     break;
             }
 
@@ -66,53 +69,76 @@ namespace Palindrome_3d_space_cube_table
             }
             #endregion
 
+            #region Задача 19
+            /*Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
+            14212->нет
+            12821->да
+            23432->да*/
 
             static void TaskNineTeen()
             {
+                Console.WriteLine("Введите пятизначное число: ");
+                int N = Convert.ToInt32(Console.ReadLine());
+                if ((N >= 10000 & N <= 99999) || (N >= -99999 & N <= -10000))
+                {
+                    if (IsPalindrome(N) == true)
+                       Console.WriteLine("да");
+                    else
+                       Console.WriteLine("нет");
+                }
+                else
+                {
+                    Console.WriteLine("Число не пятизначное");
+                }
+            }
+            static bool IsPalindrome(int N)
+            {
+                string str = Convert.ToString(N);
+                for (int i = 0; i < str.Length / 2; i++)
+                {
+                    if (str[i] != str[str.Length - 1 - i])
+                    {
+                        return false;
+                    }
+                }
+                return true;
+            }
+            #endregion
 
+            #region Доп.задача
+            /*Написать программу для разворота массива /*/
+            static void TaskZero()
+            {
+                Console.WriteLine("Введите размерность массива: ");
+                int N = Convert.ToInt32(Console.ReadLine());
+                int[] array = new int[N];
+                for (int i = 0; i < array.Length; i++)
+                {
+                    array[i] = new Random().Next(10, 99);
+                }
+                Console.Write("Ваш массив: ");
+                PrintArray(array);
+                for (int i = 0; i < array.Length / 2; i++)
+                {
+                    int temp = array[i];
+                    array[i] = array[array.Length - 1 - i];
+                    array[array.Length - 1 - i] = temp;
+                }
+                Console.WriteLine();
+                Console.Write("Перевернутый массив: ");
+                PrintArray(array);
             }
 
+            static void PrintArray(int[] array)
+            {
+                for (int i = 0; i < array.Length; i++)
+                {
+                    Console.Write(array[i] + " ");
+                }
+            }
+            #endregion
         }
     }
 }
 
-
-
-
-
-
-
-
-
-
-            /* Console.WriteLine("Введите пятизначное число: ");
-             string stringNumber = Console.ReadLine();
-             int number = Convert.ToInt32(stringNumber);
-             int[] array = new int[stringNumber.Length];
-             for (int i = 0; i < stringNumber.Length; i++)
-             {
-                 array[i] = stringNumber[i];
-             }
-             if (number >= 10000 & number <= 99999)
-             {
-                 IsPalindrom(number);
-             }
-             else
-             {
-                 Console.WriteLine("Число не пятизначное");
-             }
-
-         }
-
-         static bool IsPalindrom(int number)
-         {
-             string str = Convert.ToString(number);
-             for (int i = 0; i < str.Length / 2; i++)
-             {
-                 if (str[i] != str[str.Length - 1 - i])
-                 {
-                     return false;
-                 }
-             }
-             return true;*/
 
