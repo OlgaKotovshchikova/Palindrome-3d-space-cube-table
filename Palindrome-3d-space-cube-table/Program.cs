@@ -58,7 +58,11 @@ namespace Palindrome_3d_space_cube_table
             {
                 Console.WriteLine("Введите число: ");
                 int N = Convert.ToInt32(Console.ReadLine());
-
+                for (int i = 1; i <= N; i++)
+                {
+                    double res = Math.Pow(i, 3);
+                    Console.Write(res + " ");
+                }               
             }
             #endregion
 
